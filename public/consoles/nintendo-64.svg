@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Nintendo 64</title>
+  <desc id="desc">Ilustracao estilizada de um Nintendo 64.</desc>
+  <rect width="800" height="500" fill="#dcdfe2" />
+  <rect x="170" y="185" width="460" height="160" rx="16" fill="#7a7f85" />
+  <rect x="210" y="170" width="120" height="35" rx="6" fill="#969ca3" />
+  <rect x="360" y="170" width="120" height="35" rx="6" fill="#969ca3" />
+  <rect x="510" y="170" width="80" height="35" rx="6" fill="#969ca3" />
+  <circle cx="400" cy="265" r="22" fill="#5c6167" />
+  <rect x="380" y="245" width="40" height="65" rx="8" fill="#4a4f55" />
+  <text x="400" y="120" text-anchor="middle" font-size="54" font-family="Georgia, serif" fill="#2f3236">Nintendo 64</text>
+</svg>

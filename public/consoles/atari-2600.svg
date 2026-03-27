@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Atari 2600</title>
+  <desc id="desc">Ilustracao estilizada de um Atari 2600.</desc>
+  <rect width="800" height="500" fill="#ead8b6" />
+  <rect x="120" y="180" width="560" height="150" rx="14" fill="#3b2a21" />
+  <rect x="140" y="200" width="300" height="110" fill="#201611" />
+  <rect x="460" y="200" width="200" height="110" fill="#8c6c3f" />
+  <rect x="170" y="235" width="240" height="8" fill="#a78a5a" />
+  <circle cx="575" cy="255" r="18" fill="#1c130f" />
+  <text x="400" y="120" text-anchor="middle" font-size="54" font-family="Georgia, serif" fill="#3e2c23">Atari 2600</text>
+</svg>

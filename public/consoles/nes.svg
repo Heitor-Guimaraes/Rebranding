@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Nintendo Entertainment System</title>
+  <desc id="desc">Ilustracao estilizada de um Nintendo Entertainment System.</desc>
+  <rect width="800" height="500" fill="#ece9e4" />
+  <rect x="140" y="170" width="520" height="180" rx="12" fill="#d8d5cf" stroke="#78706a" stroke-width="6" />
+  <rect x="160" y="210" width="280" height="95" fill="#bdb8af" />
+  <rect x="470" y="210" width="170" height="95" fill="#9f9890" />
+  <rect x="500" y="230" width="110" height="10" fill="#655f59" />
+  <rect x="500" y="250" width="110" height="10" fill="#655f59" />
+  <text x="400" y="120" text-anchor="middle" font-size="40" font-family="Georgia, serif" fill="#3f3a35">Nintendo Entertainment System</text>
+</svg>
