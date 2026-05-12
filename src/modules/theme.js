@@ -12,7 +12,7 @@ export const COLORS = {
   darkAlt: "#1a1a2e",
   darkCard: "#16213e",
   
-  // Light accents
+  // Light 
   white: "#ffffff",
   whiteSemi: "rgba(255, 255, 255, 0.1)",
   whiteSemiDark: "rgba(255, 255, 255, 0.05)",
@@ -22,7 +22,7 @@ export const COLORS = {
   textSecondary: "#ff00ff",
   textMuted: "#888888",
   
-  // Primary gradient
+  // Gradient
   primary: "#ff00ff",
   secondary: "#00ffff",
   accent: "#ff6600",
