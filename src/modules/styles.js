@@ -41,76 +41,61 @@ export const Header = styled.header`
 
 export const Nav = styled.nav`
   background: linear-gradient(90deg, #0a0e27 0%, #16213e 100%);
-  backdrop-filter: blur(10px);
-  padding: 16px 20px;
+  padding: 12px 20px;
   display: flex; 
   justify-content: center; 
-  gap: 16px;
-  border-bottom: 2px solid #00ffff;
-  border-top: 2px solid #ff00ff;
+  gap: 12px;
+  border-bottom: 1px solid #ff00ff;
   z-index: 2;
   flex-wrap: wrap;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
   
   span { 
     cursor: pointer; 
-    font-weight: 700; 
-    padding: 12px 24px;
-    border-radius: 4px; 
-    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    font-weight: 600; 
+    padding: 10px 20px;
+    border-radius: 0; 
+    transition: all 0.3s ease;
     color: #00ffff;
-    background: rgba(0, 255, 255, 0.05);
-    border: 2px solid #00ffff;
-    font-size: 14px;
+    background: transparent;
+    border: 1px solid #00ffff;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    text-shadow: 0 0 5px #00ffff;
+    letter-spacing: 0.5px;
     
     &:hover { 
-      background: rgba(255, 0, 255, 0.15);
+      background: rgba(255, 0, 255, 0.1);
       border-color: #ff00ff;
       color: #ffff00;
-      box-shadow: 
-        0 0 10px #00ffff,
-        0 0 20px #ff00ff,
-        inset 0 0 10px rgba(255, 0, 255, 0.2);
-      transform: scale(1.05);
-      text-shadow: 0 0 10px #ff00ff;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
     }
   }
 `;
 
 export const Hero = styled.section`
   text-align: center; 
-  padding: 80px 20px 60px;
+  padding: 60px 20px;
   position: relative; 
   z-index: 2;
-  background: linear-gradient(180deg, rgba(0, 255, 255, 0.05) 0%, rgba(255, 0, 255, 0.03) 100%);
-  border-bottom: 2px solid #ff00ff;
+  background: linear-gradient(135deg, #0a0e27 0%, #16213e 100%);
+  border-bottom: 1px solid #ff00ff;
   
   h2 { 
-    font-size: 56px; 
-    margin: 0 0 20px 0; 
+    font-size: 40px; 
+    margin: 0 0 16px 0; 
     color: #ffff00;
-    font-weight: 900;
-    letter-spacing: 2px;
-    text-shadow: 
-      0 0 10px #ffff00,
-      0 0 20px #ff00ff,
-      0 0 30px #00ffff;
+    font-weight: 700;
+    letter-spacing: 1px;
     line-height: 1.2;
-    text-transform: uppercase;
   }
   
   p { 
-    font-size: 18px; 
+    font-size: 16px; 
     color: #00ffff; 
     margin: 0; 
-    font-weight: 600;
+    font-weight: 500;
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.6;
-    text-shadow: 0 0 5px #00ffff;
     letter-spacing: 0.5px;
   }
   
