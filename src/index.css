@@ -24,7 +24,6 @@ code {
   min-height: 100vh;
 }
 
-/* Scrollbar moderno neon */
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -44,7 +43,6 @@ code {
   box-shadow: 0 0 10px rgba(0, 255, 150, 0.4);
 }
 
-/* Firefox */
 * {
   scrollbar-color: rgba(0, 255, 150, 0.3) rgba(0, 255, 150, 0.05);
   scrollbar-width: thin;
